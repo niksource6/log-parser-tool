@@ -1,0 +1,15 @@
+# Maven build output and local test reports
+target/
+
+# Generated distribution archives
+*.zip
+
+# IDE metadata
+.idea/
+.vscode/
+*.iml
+
+# Local environment and secret files
+.env
+.env.*
+!.env.example

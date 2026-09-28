@@ -1,0 +1,7 @@
+interface:
+  display_name: "Log Monitor Parser"
+  short_description: "Parse logs, store events, and alert on errors"
+  default_prompt: "Use $log-monitor-parser to parse a local log file, store matching events in MySQL, and report ERROR threshold alerts."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,2 @@
+2026-09-28 10:20:15 INFO UserController - query user api, cost:23ms
+2026-09-28 10:20:21 WARN UserController - slow query, cost:500ms
