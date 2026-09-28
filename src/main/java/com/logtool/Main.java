@@ -25,7 +25,7 @@ public final class Main {
 
     static int run(String[] args) {
         if (args.length != 4) {
-            System.err.println("Usage: java -jar log-parser-tool-1.0.0-jar-with-dependencies.jar "
+            System.err.println("Usage: java -jar log-parser-tool-0.1.0-jar-with-dependencies.jar "
                     + "<file.log> <start: yyyy-MM-dd HH:mm:ss> <end: yyyy-MM-dd HH:mm:ss> <threshold>");
             return 1;
         }

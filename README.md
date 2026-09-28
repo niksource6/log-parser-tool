@@ -41,7 +41,7 @@ MySQL client:
 mysql -u root -p -e "source schema.sql"
 ```
 
-The build creates `target\log-parser-tool-1.0.0-jar-with-dependencies.jar`.
+The build creates `target\log-parser-tool-0.1.0-jar-with-dependencies.jar`.
 
 ## Usage
 
@@ -63,7 +63,7 @@ java -jar <jar-file> <file.log> <start: yyyy-MM-dd HH:mm:ss> <end: yyyy-MM-dd HH
 Example:
 
 ```powershell
-java -jar target\log-parser-tool-1.0.0-jar-with-dependencies.jar `
+java -jar target\log-parser-tool-0.1.0-jar-with-dependencies.jar `
   sample.log '2026-09-28 00:00:00' '2026-09-28 23:59:59' 0
 ```
 
